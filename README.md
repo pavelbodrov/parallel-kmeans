@@ -1,6 +1,6 @@
-# K-means clustering algorithm parallelisation with OpenMP and MPI (hybrid)
-- kmeans.cpp - naive non-parallel realisation
-- kmeans_parallel.cpp - hybrid parallelisation with OpenMP and MPI
+# K-means clustering algorithm parallelization with OpenMP and MPI (hybrid)
+- kmeans.cpp - naive non-parallel algorithm
+- kmeans_parallel.cpp - hybrid parallelization with OpenMP and MPI
 
 ## How to compile
 ```mpic++ -fopenmp -o kmeans_parallel kmeans_parallel.cpp```
